@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     formData.append('file', file);
 
     try {
-      await fetch('YOUR_GOOGLE_APPS_SCRIPT_URL', {
+      await fetch('https://script.google.com/macros/s/AKfycby78d_asdf1234/exec', {
         method: 'POST',
         body: formData
       });
